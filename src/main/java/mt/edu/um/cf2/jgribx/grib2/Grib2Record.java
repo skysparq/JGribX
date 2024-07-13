@@ -217,8 +217,9 @@ public class Grib2Record extends GribRecord
     @Override
     public float[] getValues()
     {
-        // TODO To be implemented
-        return null;
+        if (dsList.size() > 1)
+            Logger.println("Record contains multiple DS instances", Logger.WARNING);
+        return dsList.get(0).data;
     }
 
     /**
@@ -236,4 +237,14 @@ public class Grib2Record extends GribRecord
     public List<Grib2RecordDS> getDS() {
         return dsList;
     }
+
+    /**
+     * Return coordinates from the grid definition section (GDS) record.
+     * @return lon/lat 2D array of coordinates
+     */
+    public double[][] getGridCoords() {
+        if (gdsList.size() > 1)
+            Logger.println("Record contains multiple GDS instances", Logger.WARNING);
+        return gdsList.get(0).getGridCoords();
+    };
 }
