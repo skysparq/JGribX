@@ -1,0 +1,8 @@
+0	:	Equivalent radar reflectivity factor for rain	:	m m^6 m^-3	:	REFZR
+1	:	Equivalent radar reflectivity factor for snow	:	m m^6 m^-3	:	REFZI
+2	:	Equivalent radar reflectivity factor for parameterized convection	:	m m^6 m^-3	:	REFZC
+3	:	Echo Top	:	m	:	RETOP
+4	:	Reflectivity	:	dB	:	REFD
+5	:	Composite reflectivity	:	dB	:	REFC
+195 :   Reflectivity    :   dB  :   REFD
+196 :   Composite reflectivity  :   dB  :   REFC

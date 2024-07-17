@@ -63,6 +63,10 @@ public class Grib2Level
                 level.code = "TRO";
                 level.description = level.name = "tropopause";
                 break;
+            case 10:
+                level.code = "EATM";
+                level.description = level.name = "entire atmosphere";
+                break;
             case 100:
                 level.code = "ISBL";
                 level.name = "isobaric surface";
