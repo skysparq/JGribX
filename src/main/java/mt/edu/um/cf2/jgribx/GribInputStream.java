@@ -208,7 +208,11 @@ public class GribInputStream extends FilterInputStream
    @Override
     public long skip(long n) throws IOException
     {
-        super.skip(n);
+        long skipped = 0;
+        do {
+            skipped += super.skip(n - skipped);
+        } while (skipped < n);
+
         countBits += (n*8);
         return n;
     }
