@@ -7,7 +7,7 @@
 6	:	Montgomery Stream Function 	m2 s-2	:	MNTSF
 7	:	Sigma Coordinate Vertical Velocity	:	s-1	:	SGCVV
 8	:	Vertical Velocity (Pressure)	:	Pa s-1	:	VVEL
-9	:	Vertical Velocity (Geometric) 	m s-1	:	DZDT
+9	:	Vertical Velocity (Geometric)	:	m s-1	:	DZDT
 10	:	Absolute Vorticity	:	s-1	:	ABSV
 11	:	Absolute Divergence	:	s-1	:	ABSD
 12	:	Relative Vorticity	:	s-1	:	RELV
