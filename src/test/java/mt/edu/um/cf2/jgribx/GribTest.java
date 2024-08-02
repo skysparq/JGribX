@@ -181,6 +181,21 @@ public class GribTest
         assertArrayEquals("Weather centres", WEATHER_CENTRES, file.getCentreIDs());
     }
 
+    @Test
+    public void testFullGfsGrid() throws Exception {
+        final String FILENAME = "/gfs.t12z.pgrb2.0p25.f001.grb2";
+        URL url = GribTest.class.getResource(FILENAME);
+        var stream = new GribInputStream(url.openStream());
+        GribRecord record;
+        int index = 1;
+        do {
+            System.out.printf("Reading record %d%n", index);
+            record = GribRecord.readFromStream(stream);
+            System.out.printf("Read record %d%n", index);
+            index++;
+        } while (record != null);
+    }
+
     private static float getMaxValue(float[] values)
     {
         float max = values[0];
