@@ -1,0 +1,21 @@
+0	:	Net Long-Wave Radiation Flux (Surface) (see Note 1)	:	W m-2	:	NLWRS
+1	:	Net Long-Wave Radiation Flux (Top of Atmosphere) (see Note 1)	:	W m-2	:	NLWRT
+2	:	Long-Wave Radiation Flux (see Note 1)	:	W m-2	:	LWAVR
+3	:	Downward Long-Wave Rad. Flux	:	W m-2	:	DLWRF
+4	:	Upward Long-Wave Rad. Flux	:	W m-2	:	ULWRF
+5	:	Net Long-Wave Radiation Flux	:	W m-2	:	NLWRF
+6	:	Net Long-Wave Radiation Flux, Clear Sky	:	W m-2	:	NLWRCS
+7	:	Brightness Temperature	:	K	:	BRTEMP
+8	:	Downward Long-Wave Radiation Flux, Clear Sky	:	W m-2	:	DLWRFCS
+9	:	Near IR albedo for diffuse radiation	:	%	:	NIRALBDIF
+10	:	Near IR albedo for direct radiation	:	%	:	NIRALBDIR
+11	:	Near IR albedo for direct radiation, geometric component	:	%	:	NIRALBDIRG
+12	:	Near IR albedo for direct radiation, isotropic component	:	%	:	NIRALBDIRI
+13	:	Near IR albedo for direct radiation, volumetric component	:	%	:	NIRALBDIRV
+192	:	Downward Long-Wave Rad. Flux	:	W m-2	:	DLWRF
+193	:	Upward Long-Wave Rad. Flux	:	W m-2	:	ULWRF
+194	:	Long-Wave Radiative Heating Rate	:	K s-1	:	LWHR
+195	:	Clear Sky Upward Long Wave Flux	:	W m-2	:	CSULF
+196	:	Clear Sky Downward Long Wave Flux	:	W m-2	:	CSDLF
+197	:	Cloud Forcing Net Long Wave Flux	:	W m-2	:	CFNLF
+255	:	Missing	:		:	

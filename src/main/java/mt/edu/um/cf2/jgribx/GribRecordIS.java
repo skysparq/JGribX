@@ -62,7 +62,10 @@ public class GribRecordIS
     {
         GribRecordIS is = new GribRecordIS();
         byte[] octets = new byte[16];
-        in.read(octets, 0, 8);
+        var read = in.read(octets, 0, 8);
+        if (read != 8) {
+            return null;
+        }
         
         String startCode = new String(Arrays.copyOfRange(octets, 0, 4));
         if (!startCode.equals(PATTERN))

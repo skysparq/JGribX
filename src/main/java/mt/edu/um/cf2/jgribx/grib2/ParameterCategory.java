@@ -69,6 +69,8 @@ public abstract class ParameterCategory
             entries.put(1, "MOISTURE");
             entries.put(2, "MOMENTUM");
             entries.put(3, "MASS");
+            entries.put(4, "SHORT_WAVE_RADIATION");
+            entries.put(5, "LONG_WAVE_RADIATION");
             entries.put(6, "CLOUD");
             entries.put(7, "THERMODYNAMIC");
             entries.put(14, "TRACE_GASES");

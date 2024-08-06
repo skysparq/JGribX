@@ -217,7 +217,7 @@ public class Grib2RecordDS
         // test
         if (drs.missingValueManagement != 0)
         {
-            throw new NotSupportedException("Missing Value Management is not supported");
+            //throw new NotSupportedException("Missing Value Management is not supported");
         }
         else
         {

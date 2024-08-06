@@ -1,1 +1,52 @@
 0	:	Visibility	:	m	:	VIS
+1	:	Albedo	:	%	:	ALBDO
+2	:	Thunderstorm Probability	:	%	:	TSTM
+3	:	Mixed Layer Depth	:	m	:	MIXHT
+4	:	Volcanic Ash	:	SeeTable 4.206	:	VOLASH
+5	:	Icing Top	:	m	:	ICIT
+6	:	Icing Base	:	m	:	ICIB
+7	:	Icing	:	SeeTable 4.207	:	ICI
+8	:	Turbulence Top	:	m	:	TURBT
+9	:	Turbulence Base	:	m	:	TURBB
+10	:	Turbulence	:	SeeTable 4.208	:	TURB
+11	:	Turbulent Kinetic Energy	:	J kg-1	:	TKE
+12	:	Planetary Boundary Layer Regime	:	SeeTable 4.209	:	PBLREG
+13	:	Contrail Intensity	:	SeeTable 4.210	:	CONTI
+14	:	Contrail Engine Type	:	SeeTable 4.211	:	CONTET
+15	:	Contrail Top	:	m	:	CONTT
+16	:	Contrail Base	:	m	:	CONTB
+17	:	Maximum Snow Albedo (see Note 1)	:	%	:	MXSALB
+18	:	Snow-Free Albedo	:	%	:	SNFALB
+19	:	Snow Albedo	:	%	:	SALBD
+20	:	Icing	:	%	:	ICIP
+21	:	In-Cloud Turbulence	:	%	:	CTP
+22	:	Clear Air Turbulence (CAT)	:	%	:	CAT
+23	:	Supercooled Large Droplet Probability (see Note 2)	:	%	:	SLDP
+24	:	Convective Turbulent Kinetic Energy	:	J kg-1	:	CONTKE
+25	:	Weather	:	SeeTable 4.225	:	WIWW
+26	:	Convective Outlook	:	SeeTable 4.224	:	CONVO
+27	:	Icing Scenario	:	SeeTable 4.227	:	ICESC
+28	:	Mountain Wave Turbulence (Eddy Dissipation Rate)	:	m2/3s-1	:	MWTURB
+29	:	Clear Air Turbulence (CAT) (Eddy Dissipation Rate)	:	m2/3s-1	:	CATEDR
+30	:	Eddy Dissipation Parameter (See Note 3)	:	m2/3s-1	:	EDPARM
+31	:	Maximum of Eddy Dissipation Parameter in Layer	:	m2/3s-1	:	MXEDPRM
+32	:	Highest Freezing Level	:	m	:	HIFREL
+33	:	Visibility Through Liquid Fog	:	m	:	VISLFOG
+34	:	Visibility Through Ice Fog	:	m	:	VISIFOG
+35	:	Visibility Through Blowing Snow	:	m	:	VISBSN
+36	:	Presence of Snow Squalls	:	SeeTable 4.222	:	PSNOWS
+37	:	Icing Severity	:	SeeTable 4.228	:	ICESEV
+38	:	Sky transparency index (see Note 4)	:	SeeTable 4.214	:	SKYIDX
+39	:	Seeing index (see Note 5)	:	SeeTable 4.214	:	SEEINDEX
+40	:	Snow level	:	m	:	SNOWLVL
+41	:	Duct base height (see Note 6)	:	m	:	DBHEIGHT
+42	:	Trapping layer base height (see Note 6)	:	m	:	TLBHEIGHT
+43	:	Trapping layer top height (see Note 6)	:	m	:	TLTHEIGHT
+44	:	Mean vertical gradient of refractivity inside trapping layer (see Note 6)	:	m-1	:	MEANVGRTL
+45	:	Minimum vertical gradient of refractivity inside trapping layer	:	m-1	:	MINVGRTL
+46	:	Net radiation flux	:	W m-2	:	NETRADFLUX
+47	:	Global irradiance on tilted surfaces	:	W m-2	:	GLIRRTS
+48	:	Top of persistent contrails	:	m	:	PCONTT
+49	:	Base of persistent contrails	:	m	:	PCONTB
+50	:	Convectively-induced turbulence (CIT) (eddy dissipation rate)	:	m2/3s-1	:	CITEDR
+255	:	Missing	:		:	

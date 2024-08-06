@@ -1,0 +1,43 @@
+0	:	Net Short-Wave Radiation Flux (Surface) (see Note 1)	:	W m-2	:	NSWRS
+1	:	Net Short-Wave Radiation Flux (Top of Atmosphere) (see Note 1)	:	W m-2	:	NSWRT
+2	:	Short-Wave Radiation Flux (see Note 1)	:	W m-2	:	SWAVR
+3	:	Global Radiation Flux	:	W m-2	:	GRAD
+4	:	Brightness Temperature	:	K	:	BRTMP
+5	:	Radiance (with respect to wave number)	:	W m-1sr-1	:	LWRAD
+6	:	Radiance (with respect to wavelength)	:	W m-3sr-1	:	SWRAD
+7	:	Downward Short-Wave Radiation Flux	:	W m-2	:	DSWRF
+8	:	Upward Short-Wave Radiation Flux	:	W m-2	:	USWRF
+9	:	Net Short Wave Radiation Flux	:	W m-2	:	NSWRF
+10	:	Photosynthetically Active Radiation	:	W m-2	:	PHOTAR
+11	:	Net Short-Wave Radiation Flux, Clear Sky	:	W m-2	:	NSWRFCS
+12	:	Downward UV Radiation	:	W m-2	:	DWUVR
+13	:	Direct Short Wave Radiation Flux	:	W m-2	:	DSWRFLX
+14	:	Diffuse Short Wave Radiation Flux	:	W m-2	:	DIFSWRF
+15	:	Upward UV radiation emitted/reflected from the Earth's surface	:	W m-2	:	UVVEARTH
+50	:	UV Index (Under Clear Sky) (see Note 2)	:	Numeric	:	UVIUCS
+51	:	UV Index (see Note 2)	:	Numeric	:	UVI
+52	:	Downward Short-Wave Radiation Flux, Clear Sky	:	W m-2	:	DSWRFCS
+53	:	Upward Short-Wave Radiation Flux, Clear Sky	:	W m-2	:	USWRFCS
+54	:	Direct normal short-wave radiation flux,(see Note 3)	:	W m-2	:	DNSWRFLX
+55	:	UV visible albedo for diffuse radiation	:	%	:	UVALBDIF
+56	:	UV visible albedo for direct radiation	:	%	:	UVALBDIR
+57	:	UV visible albedo for direct radiation, geometric component	:	%	:	UBALBDIRG
+58	:	UV visible albedo for direct radiation, isotropic component	:	%	:	UVALBDIRI
+59	:	UV visible albedo for direct radiation, volumetric component	:	%	:	UVBDIRV
+60	:	Photosynthetically active radiation flux, clear sky	:	W m-2	:	PHOARFCS
+61	:	Direct short-wave radiation flux, clear sky	:	W m-2	:	DSWRFLXCS
+192	:	Downward Short-Wave Radiation Flux	:	W m-2	:	DSWRF
+193	:	Upward Short-Wave Radiation Flux	:	W m-2	:	USWRF
+194	:	UV-B Downward Solar Flux	:	W m-2	:	DUVB
+195	:	Clear sky UV-B Downward Solar Flux	:	W m-2	:	CDUVB
+196	:	Clear Sky Downward Solar Flux	:	W m-2	:	CSDSF
+197	:	Solar Radiative Heating Rate	:	K s-1	:	SWHR
+198	:	Clear Sky Upward Solar Flux	:	W m-2	:	CSUSF
+199	:	Cloud Forcing Net Solar Flux	:	W m-2	:	CFNSF
+200	:	Visible Beam Downward Solar Flux	:	W m-2	:	VBDSF
+201	:	Visible Diffuse Downward Solar Flux	:	W m-2	:	VDDSF
+202	:	Near IR Beam Downward Solar Flux	:	W m-2	:	NBDSF
+203	:	Near IR Diffuse Downward Solar Flux	:	W m-2	:	NDDSF
+204	:	Downward Total Radiation Flux	:	W m-2	:	DTRF
+205	:	Upward Total Radiation Flux	:	W m-2	:	UTRF
+255	:	Missing	:		:	

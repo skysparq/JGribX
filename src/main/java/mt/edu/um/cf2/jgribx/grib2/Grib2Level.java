@@ -63,6 +63,10 @@ public class Grib2Level
                 level.code = "TRO";
                 level.description = level.name = "tropopause";
                 break;
+            case 8:
+                level.code = "USWRF";
+                level.description = level.name = "top of atmosphere";
+                break;
             case 10:
                 level.code = "EATM";
                 level.description = level.name = "entire atmosphere";
@@ -133,9 +137,65 @@ public class Grib2Level
                 level.code = "HTFL";
                 level.description = level.name = "highest tropospheric freezing level";
                 break;
+            case 211:
+                level.code = "TCDC";
+                level.description = level.name = "boundary layer cloud layer";
+                break;
+            case 212:
+                level.code = "PRES";
+                level.description = level.name = "low cloud bottom level";
+                break;
+            case 213:
+                level.code = "PRES";
+                level.description = level.name = "low cloud top level";
+                break;
+            case 214:
+                level.code = "LCDC";
+                level.description = level.name = "low cloud layer";
+                break;
+            case 215:
+                level.code = "HGT";
+                level.description = level.name = "cloud ceiling";
+                break;
+            case 222:
+                level.code = "PRES";
+                level.description = level.name = "middle cloud bottom level";
+                break;
+            case 223:
+                level.code = "PRES";
+                level.description = level.name = "middle cloud top level";
+                break;
+            case 224:
+                level.code = "MCDC";
+                level.description = level.name = "middle cloud layer";
+                break;
+            case 234:
+                level.code = "HCDC";
+                level.description = level.name = "high cloud layer";
+                break;
             case 220:
                 level.code = "PBL";
                 level.description = level.name = "planetary boundary layer";
+                break;
+            case 232:
+                level.code = "PRES";
+                level.description = level.name = "high cloud bottom level";
+                break;
+            case 233:
+                level.code = "PRES";
+                level.description = level.name = "high cloud top level";
+                break;
+            case 242:
+                level.code = "PRES";
+                level.description = level.name = "convective cloud bottom level";
+                break;
+            case 243:
+                level.code = "PRES";
+                level.description = level.name = "convective cloud top level";
+                break;
+            case 244:
+                level.code = "TCDC";
+                level.description = level.name = "convective cloud layer";
                 break;
             default:
                 level = null;
